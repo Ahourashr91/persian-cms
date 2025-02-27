@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "title": "هندزفری بلوتوثی",
+      "price": 139000,
+      "count": "111",
+      "img": "/img/head.jpeg",
+      "popularity": "92",
+      "sale": 18980000,
+      "colors": 4,
+      "id": "1"
+    },
+    {
+      "title": "نینتندو سوییچ",
+      "price": "18000000",
+      "count": 33,
+      "img": "/img/nintendo-switch-oled.jpeg",
+      "popularity": "88",
+      "sale": 88000000,
+      "colors": 2,
+      "id": "2"
+    }
+  ],
+  "users": [
+    {
+      "firsname": "حسین",
+      "lastname": "محمدی",
+      "username": "hosyn_mmdi",
+      "password": "ho3ein_12",
+      "phone": 9921558293,
+      "city": "تبریز",
+      "email": "ho3ein@gmail.com",
+      "address": "تبریز - خیابان فلان - کوچه فلان",
+      "score": "44",
+      "buy": 12000000,
+      "id": "2"
+    },
+    {
+      "firsname": "علی",
+      "lastname": "حسینی",
+      "username": "ali_9001",
+      "password": "ali190012",
+      "phone": 9943287617,
+      "city": "شیراز",
+      "email": "ali_9001@gmail.com",
+      "address": "شیراز - خیابان فلان - کوچه فلان",
+      "score": "44",
+      "buy": 8541000,
+      "id": "3"
+    }
+  ],
+  "comments": [
+    {
+      "body": "سلام بسته بندی این محصول عالی بود",
+      "date": "1402-02-09",
+      "hour": "14:23",
+      "userID": "علی",
+      "productID": "هندزفری بلوتوثی",
+      "isReply": 0,
+      "replyId": 0,
+      "isAccept": 1,
+      "id": "1"
+    }
+  ],
+  "orders": [
+    {
+      "count": 1,
+      "price": 16200000,
+      "popularity": 91,
+      "productID": "نینتندو سوییچ",
+      "userID": "علی",
+      "isActive": 1,
+      "date": "1403-01-01",
+      "hour": "12:09",
+      "off": 1800000,
+      "allPrice": 18000000,
+      "saleCount": null,
+      "id": "1"
+    }
+  ],
+  "offs": [
+    {
+      "id": "1",
+      "code": "1292fl",
+      "percent": 10,
+      "admin": "اهورا شاکرمی",
+      "product": "نینتندو سوییچ",
+      "date": "1403-01-01",
+      "isActive": 1
+    },
+    {
+      "code": "5611po",
+      "percent": 30,
+      "admin": "اهورا شاکرمی",
+      "product": "هندزفری بلوتوثی",
+      "date": "1402-09-12",
+      "isActive": 1,
+      "id": "2"
+    }
+  ]
+}

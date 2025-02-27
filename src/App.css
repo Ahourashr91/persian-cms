@@ -1,0 +1,352 @@
+@font-face {
+  font-family: iranSansMedium;
+  src: url(./font/IRANSansWeb_Medium.ttf);
+}
+
+* {
+  font-family: iranSansMedium !important;
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  width: 300px;
+  background: linear-gradient(90deg, rgb(5, 5, 197), rgb(10, 10, 192));
+  height: 100vh;
+  padding: 10px !important;
+  position: sticky;
+  top: 0;
+  margin-top: -120px;
+}
+
+.sideitem {
+  color: white;
+  display: block;
+  font-size: 22px;
+  margin-top: 16px;
+  text-decoration: none;
+  transition: all .5s;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.sideitem:hover {
+  background-color: rgb(0, 0, 160);
+}
+
+.sideTitem {
+  color: white;
+  display: block;
+  margin-right: 12px;
+  font-size: 24px;
+}
+
+.active {
+  background-color: rgb(0, 0, 160);
+}
+
+.header {
+  height: 100px;
+  margin-right: 300px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.profileimg {
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.profileName {
+  margin-top: 32px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.profileJob {
+  font-size: 14px;
+  color: gray;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.form {
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+  border-radius: 5px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-right: 180px;
+}
+
+.searchBox {
+  border: none;
+  height: 100%;
+  outline: none;
+  width: 300px;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+
+.searchBtn {
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  background: rgb(5, 5, 197);
+  border: none;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.searchBtn:hover {
+  background: rgb(2, 2, 160);
+}
+
+.icons {
+  margin-top: 29px;
+  margin-right: 90px;
+}
+
+.navBtn {
+  padding-top: 7px;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: rgb(5, 5, 197);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: all .5s;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+
+}
+
+.navBtn:hover {
+  background: rgb(2, 2, 160);
+}
+
+.errorbox {
+  background: red;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 964px;
+  height: 90px;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorboxMessage {
+  color: white;
+  font-size: 20px;
+}
+
+.anpp {
+  width: 924px;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+  height: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.newProdInput {
+  width: 430px;
+  border-radius: 5px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.submitProducts {
+  margin-right: 376px;
+  border-radius: 5px;
+  margin-top: 7px;
+  color: white;
+  background: rgb(5, 5, 197);
+  border: none;
+  cursor: pointer;
+  transition: all .5s;
+  padding: 7px 15px;
+}
+
+.submitProducts:hover {
+  background: rgb(2, 2, 160);
+}
+
+.bold {
+  font-size: 23px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.productsTable {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+  margin-right: 20px !important;
+  width: 964px;
+  margin-bottom: 20px;
+}
+
+.productImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+tr:nth-child(first) {
+  padding-top: 20px !important;
+}
+
+td,
+th {
+  padding: 10px !important;
+  text-align: center;
+  width: 160px;
+}
+
+.tableBtn {
+  border-radius: 5px;
+  color: white;
+  background: rgb(5, 5, 197);
+  border: none;
+  cursor: pointer;
+  transition: all .5s;
+  padding: 7px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.tableBtn:hover {
+  background: rgb(2, 2, 160);
+}
+
+.modal-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4000;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+  background: rgba(51, 50, 50, 0.658);
+}
+
+.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: all .5s;
+}
+
+.modal {
+  background: white;
+  border-radius: 5px;
+  padding: 23px;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+
+}
+
+.modalTitle {
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.modal-btn,
+.dtCloseBtn {
+  padding: 7px 28px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+  transition: all .5s;
+}
+
+.btns-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modal-accept {
+  background: lime;
+}
+
+.modal-accept:hover {
+  background: rgb(2, 190, 2);
+}
+
+.modal-reject {
+  background: red;
+}
+
+.modal-reject:hover {
+  background: rgb(182, 0, 0);
+}
+
+.btn-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.submitInformations {
+  border-radius: 5px;
+  color: white;
+  background: rgb(5, 5, 197);
+  border: none;
+  cursor: pointer;
+  transition: all .5s;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.submitInformations:hover {
+  background: rgb(2, 2, 160);
+}
+
+.editInput {
+  width: 300px;
+  border-radius: 5px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.input-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.ta-parent {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 5px rgb(70, 69, 69);
+
+}
